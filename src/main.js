@@ -5,7 +5,9 @@ import 'element-ui/lib/theme-chalk/index.css'
 // import router from '/src/router/index.js'
 // 1.导入某一个目录，默认会去找索引文件（index.js index.vue index.json） 基于webpack
 import router from '@/router'
+import axios from '@/api'
 
+Vue.prototype.$http = axios
 Vue.use(ElementUI)
 Vue.config.productionTip = false
 

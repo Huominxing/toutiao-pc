@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    1234567
-    <el-button type="success" round>成功按钮</el-button>
+    <!-- 一级路由的容器 -->
+    <router-view />
   </div>
 </template>
 
